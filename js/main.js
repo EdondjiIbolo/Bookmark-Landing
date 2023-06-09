@@ -12,7 +12,7 @@ const icon = document.querySelector('.icon-error')
 toggleMenu.addEventListener('click', (e)=>{
     menu.parentElement.classList.toggle('show-menu')
     if(menu.parentElement.classList.contains('show-menu')==true){
-        toggleMenu.children[0].src= '/images/icon-close.svg'
+        toggleMenu.children[0].src= 'images/icon-close.svg'
         toggleMenu.classList.add('fixed')
         logoLanding.classList.add('fixed')
         logoLanding.children[0].src = 'images/logo-bookmark.svg'
