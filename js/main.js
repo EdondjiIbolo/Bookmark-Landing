@@ -19,7 +19,7 @@ toggleMenu.addEventListener('click', (e)=>{
         document.documentElement.style.overflow = 'hidden'
     }else{
         document.documentElement.style.overflow = 'visible'
-        toggleMenu.children[0].src= '/images/icon-hamburger.svg'
+        toggleMenu.children[0].src= 'images/icon-hamburger.svg'
         toggleMenu.classList.remove('fixed')
         logoLanding.classList.remove('fixed')
         logoLanding.children[0].src = 'images/bookmark2.svg'
